@@ -1,7 +1,7 @@
 from roboclaw import Roboclaw
 from time import sleep
 
-roboclaw("/dev/ttyS0", 38400)
+roboclaw = Roboclaw("/dev/ttyS0", 38400)
 roboclaw.Open()
 
 
