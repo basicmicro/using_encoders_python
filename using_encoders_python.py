@@ -13,7 +13,7 @@ print motor_1_count
 sleep(2)
 
 # Set encoder and then read and print to test operation
-roboclaw.SetEnc1(0x80, 10000)
+roboclaw.SetEncM1(0x80, 10000)
 motor_1_count = roboclaw.ReadEncM1(0x80)
 print "After setting count:"
 print motor_1_count
